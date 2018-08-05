@@ -2,9 +2,6 @@ public class OldThreadTest {
 
     public static void main(String[] args) {
 
-
-
-
         Runnable someTask = new Runnable() {  // interfejs runnable
             @Override
             public void run() {
@@ -22,12 +19,6 @@ public class OldThreadTest {
             System.out.println("Witaj, jestem z wątku numer 0");
             Thread.yield();    // mała optymalizacja
         }
-
-
-
-
-
-
 
 
     }
