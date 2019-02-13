@@ -15,7 +15,7 @@ public class OldThreadTest {
         thread.start();
         for (int i = 0; i < 5000; i++) {
             System.out.println("Witaj, jestem z wątku numer 0");
-            Thread.yield();    // mała optymalizacja
+            Thread.yield();    // mała optymalizacja  z ang.wydajnosc
         }
     }
 }
